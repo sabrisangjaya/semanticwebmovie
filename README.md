@@ -1,11 +1,9 @@
 # MovieDatabase
 ## Tugas Akhir Semantic Web
 
-<div style="text-align:center;" class="text-center">[![](img/logo.png)
-
-## Movie Database
-
-](index.php)[Home](index.php) | [Dokumentasi](dokumentasi.php) | [Text Mining](autosum.php)</div>
+[](img/logo.png)
+[## Movie Database](index.php)
+[Home](index.php) | [Dokumentasi](dokumentasi.php) | [Text Mining](autosum.php)
 
 RDF Schema  
 ![schema](img/doc/schema.jpg)  
@@ -20,7 +18,9 @@ User memasukan query pencarian ke dalam sistem, kemudian sistem akan menampilkan
 2.  Dimainkan oleh actor yang sesuai kata kunci
 3.  Disutradarai oleh director yang sesuai kata kunci
 
-![image](img/doc/Screenshot_2.png) ![image](img/doc/Screenshot_3.png) ![image](img/doc/Screenshot_5.png) ![image](img/doc/Screenshot_6.png) Ketika user memilih tombol download maka sistem mengarahkan user ke situs download film [Pahe.in](https://pahe.in/)  
+![image](img/doc/Screenshot_2.png) ![image](img/doc/Screenshot_3.png) ![image](img/doc/Screenshot_5.png) ![image](img/doc/Screenshot_6.png) 
+
+Ketika user memilih tombol download maka sistem mengarahkan user ke situs download film [Pahe.in](https://pahe.in/)  
 Ketika user memilih tombol view maka akan menampilkan detail dari film tersebut  
 Detail dari film didapat dari database lokal dan API request menggunakan [OMDb API](http://www.omdbapi.com/). Dari OMBd API didapat alamat [Rotten Tomatoes](https://www.rottentomatoes.com/) yang digunakan untuk menampilkan review film menggunakan [HTML DOM](https://simplehtmldom.sourceforge.io/index.htm). Selain menampilkan detail film sistem juga menampilkan gambar gif yang terkait dari situs [giphy](https://giphy.com/)  
 
